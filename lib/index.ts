@@ -50,10 +50,6 @@ export type {
 	TypedResult as PineTypedResult,
 } from '../typings/pinejs-client-core';
 
-// TODO: Drop in the next major
-/** @deprecated */
-export type PineWithSelectOnGet = PineStrict;
-
 export type { ApplicationInviteOptions } from './models/application-invite';
 export type {
 	BankAccountBillingInfo,
